@@ -1,7 +1,3 @@
-terraform {
-  experiments = [module_variable_optional_attrs]
-}
-
 variable "category" {
   description = "Whether this is a Terraform or environment variable."
   type        = string
